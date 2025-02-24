@@ -7,15 +7,15 @@ st.set_page_config(page_title="Multiple Disease Prediction")
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('D:/G-7_Major_Project/G-7_Major_Project/project/module1/diabetese.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetese.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('D:/G-7_Major_Project/G-7_Major_Project/project/module2/heartDisease.sav', 'rb'))
+heart_disease_model = pickle.load(open('heartDisease.sav', 'rb'))
 
-hypertension_model = pickle.load(open('D:/G-7_Major_Project/G-7_Major_Project/project/module3/hypertension.sav', 'rb'))
+hypertension_model = pickle.load(open('hypertension.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('D:/G-7_Major_Project/G-7_Major_Project/project/module4/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-asthama_model = pickle.load(open('D:/G-7_Major_Project/G-7_Major_Project/project/module5/asthama_model.sav', 'rb'))
+asthama_model = pickle.load(open('asthama_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
